@@ -25,6 +25,14 @@ $
 **Long Straight Wire**  
 A long straight wire carrying a current $I$ produces a magnetic field that encircles the wire and decreases with distance. The magnetic field at a distance $r$ is given by:
 
+ st.image("data/figs/B_field_wire.jpg", caption="Magnetic Field Orientation: Long Straight Wire", use_column_width=True)
+    st.markdown(
+        '<div style="text-align: center;">'
+        '$$B = \\frac{\\mu_0 I}{2 \\pi r}$$'
+        '</div>',
+        unsafe_allow_html=True
+    )
+    
 $
 B = \frac{\mu_0 I}{2 \pi r}
 $
