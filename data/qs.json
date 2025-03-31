@@ -22,46 +22,46 @@
     "Q5a": {
         "text": "Pb\u00b2\u207a ion passes 5 cm from a long wire carrying 10 A. Calculate the magnetic field at its location.",
         "unit": "G (Gauss)",
-        "answer": 4e-01
+        "answer": 0.399988
     },
     "Q5b": {
         "text": "Determine the magnitude of the force on the Pb\u00b2\u207a ion moving at 200 m/s.",
-        "unit": "N",
-        "answer": 2.56e-21
+        "unit": "\u02717 e-21 N",
+        "answer": 2.56312
     },
     "Q6a": {
         "text": "Two parallel wires 3 cm apart carry 8 A and 12 A. Compute the force on a 30 cm segment.",
         "unit": "\u003bc N",
-        "answer": 0.000192e+06
+        "answer": 191.994
     },
     "Q7b": {
         "text": "Determine the net magnetic field at the center of a solenoid and ring carrying opposite-direction currents.",
         "unit": "G (Gauss)",
-        "answer": 0.0001e+4
+        "answer": 28.0222
     },
     "Q8": {
-        "text": "A 0.5 m wire with 6 A in a 100 \u03bcT B field (into page). Find the magnetic force magnitude.",
-        "unit": "mN",
-        "answer": 0.0003e+3
+        "text": "A 25 cm wire with 6 A in a 0.8 T B field (into page). Find the magnetic force magnitude.",
+        "unit": "N",
+        "answer": 1.2
     },
     "Q9a": {
-        "text": "What current is needed in a 250-turn, 0.5 m solenoid to produce 40 \u03bcT field?",
-        "unit": "A",
-        "answer": 0.796
+        "text": "What current is needed in a 250-turn, 60 cm solenoid to produce 40 \u03bcT field?",
+        "unit": "mA",
+        "answer": 76.3966
     },
     "Q9b": {
-        "text": "What current is needed in a 0.2 m radius ring to produce 40 \u03bcT field at center?",
+        "text": "What current is needed in a 20 cm radius ring to produce 40 \u03bcT field at center?",
         "unit": "A",
-        "answer": 1.257
+        "answer": 12.7328
     },
     "Q10a": {
-        "text": "Estimate the solenoid\u2019s B-field and field at 1 cm from the straight wire (5 A).",
+        "text": "Estimate the solenoid\u2019s B-field.",
         "unit": "G (Gauss)",
-        "answer": 0.00136e+4
+        "answer": 33.5093
     },
     "Q10b": {
-        "text": "Calculate force per unit length on a wire (5 A) in solenoid\u2019s B-field.",
-        "unit": "mN/m",
-        "answer": 0.0063e+03
+        "text": "Estimate the force on a wire (5 A) in solenoid\u2019s B-field.",
+        "unit": "mN",
+        "answer": 5.0264
     }
 }
