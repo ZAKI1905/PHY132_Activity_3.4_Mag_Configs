@@ -39,7 +39,7 @@ This formula shows that the magnetic field is inversely proportional to the dist
 
 **Circular Loop**  
 A circular loop of wire carrying a current $I$ produces a magnetic field at its center given by:""")
-    st.image("data/figs/B_field_loop.jpg", caption="Magnetic Field Orientation: Circular Loop")
+    st.image("data/figs/B_field_loop.jpg", caption="Magnetic Field Orientation: Circular Loop", use_container_width=True)
     st.markdown(r"""
 $
 B = \frac{\mu_0 I}{2R}
