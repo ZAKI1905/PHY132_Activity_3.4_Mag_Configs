@@ -34,11 +34,6 @@
         "unit": "N",
         "answer": 0.000192
     },
-    "Q6b": {
-        "text": "Are the forces between the wires attractive or repulsive?",
-        "unit": "text",
-        "answer": "attractive"
-    },
     "Q7b": {
         "text": "Determine the net magnetic field at the center of a solenoid and ring carrying opposite-direction currents.",
         "unit": "T",
