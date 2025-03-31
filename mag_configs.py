@@ -1,4 +1,3 @@
-
 import streamlit as st
 import json
 import numpy as np
@@ -9,11 +8,46 @@ with open("data/qs.json", "r") as f:
 
 # Title and description
 st.title("PHY 132 –  Activity 3.4 - Magnetic Field Configurations")
-
-# Intro Text
 st.write("This tool is intended for checking final numerical answers to some parts of the questions.")
-
 st.markdown("Check your final numerical answer below (within 1% tolerance). Enter only the number — no units.")
+
+# Background Information button
+if st.button("Background Information"):
+    st.header("Background Information")
+    
+    st.subheader("Magnetic Field Formulas")
+    st.markdown(r"""
+- **Long Straight Wire:** 
+  \[
+  B = \frac{\mu_0 I}{2\pi r}
+  \]
+- **Circular Loop (at center):**
+  \[
+  B = \frac{\mu_0 I}{2R}
+  \]
+- **Solenoid (inside):**
+  \[
+  B = \mu_0 \left(\frac{N}{L}\right) I
+  \]
+    """)
+    
+    st.subheader("Units")
+    st.markdown(r"""
+- The magnetic field is measured in **Gauss (G)** in CGS units.
+- \(1\,\text{Gauss} = 10^{-4}\,\text{Tesla (T)}\).
+    """)
+    
+    st.subheader("Particle Properties")
+    st.markdown(r"""
+- **Electron:**  
+  Mass = \(9.11 \times 10^{-31}\,\text{kg}\)  
+  Charge = \(-1.6 \times 10^{-19}\,\text{C}\)
+  
+- **Proton:**  
+  Mass = \(1.67 \times 10^{-27}\,\text{kg}\)  
+  Charge = \(+1.6 \times 10^{-19}\,\text{C}\)
+    """)
+    st.markdown("---")
 
 # Dropdown to select a question
 question_ids = list(questions.keys())
@@ -34,10 +68,7 @@ if st.button("Check Answer"):
     if abs(student_answer - correct) <= tolerance:
         st.success("✅ Correct! Your answer is within 1% of the expected value.")
     else:
-        # st.error(f"❌ Not quite. Try again.\nExpected value is between {correct - tolerance:.6g} and {correct + tolerance:.6g}.")
-        st.error(f"❌ Not quite. Try again.")
-
-
+        st.error("❌ Not quite. Try again.")
 
 # Footer with contact info and right-aligned EKU logo
 footer = '''
