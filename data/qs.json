@@ -1,0 +1,72 @@
+{
+    "Q1": {
+        "text": "Calculate the magnitude of the magnetic field at a distance of 10 cm from a long straight wire carrying 20 A.",
+        "unit": "T",
+        "answer": 4e-05
+    },
+    "Q2": {
+        "text": "A circular loop of radius 15 cm carries 5 A. Determine the magnetic field at the center.",
+        "unit": "T",
+        "answer": 2.094e-06
+    },
+    "Q3": {
+        "text": "Compute the magnetic field inside a 50 cm long solenoid with 500 turns carrying 2 A.",
+        "unit": "T",
+        "answer": 0.002513
+    },
+    "Q4a": {
+        "text": "A proton moves at 1e6 m/s perpendicularly into a 200 \u03bcT magnetic field. Calculate the radius of its circular path.",
+        "unit": "m",
+        "answer": 5.22
+    },
+    "Q5a": {
+        "text": "Pb\u00b2\u207a ion passes 5 cm from a long wire carrying 10 A. Calculate the magnetic field at its location.",
+        "unit": "T",
+        "answer": 4e-05
+    },
+    "Q5b": {
+        "text": "Determine the magnitude of the force on a Pb\u00b2\u207a ion moving at 200 m/s near a wire producing a 4e-5 T magnetic field.",
+        "unit": "N",
+        "answer": 2.56e-21
+    },
+    "Q6a": {
+        "text": "Two parallel wires 3 cm apart carry 8 A and 12 A. Compute the force on a 30 cm segment.",
+        "unit": "N",
+        "answer": 0.000192
+    },
+    "Q6b": {
+        "text": "Are the forces between the wires attractive or repulsive?",
+        "unit": "text",
+        "answer": "attractive"
+    },
+    "Q7b": {
+        "text": "Determine the net magnetic field at the center of a solenoid and ring carrying opposite-direction currents.",
+        "unit": "T",
+        "answer": 0.0001
+    },
+    "Q8": {
+        "text": "A 0.5 m wire with 6 A in a 100 \u03bcT B field (into page). Find the magnetic force magnitude.",
+        "unit": "N",
+        "answer": 0.0003
+    },
+    "Q9a": {
+        "text": "What current is needed in a 250-turn, 0.5 m solenoid to produce 40 \u03bcT field?",
+        "unit": "A",
+        "answer": 0.796
+    },
+    "Q9b": {
+        "text": "What current is needed in a 0.2 m radius ring to produce 40 \u03bcT field at center?",
+        "unit": "A",
+        "answer": 1.257
+    },
+    "Q10a": {
+        "text": "Estimate the solenoid\u2019s B-field and field at 1 cm from the straight wire (5 A).",
+        "unit": "T",
+        "answer": 0.00136
+    },
+    "Q10b": {
+        "text": "Calculate force per unit length on a wire (5 A) in solenoid\u2019s B-field (1.26e-3 T).",
+        "unit": "N/m",
+        "answer": 0.0063
+    }
+}
