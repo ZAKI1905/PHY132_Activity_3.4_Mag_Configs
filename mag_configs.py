@@ -16,8 +16,15 @@ if page == "Background Information":
     st.header("Magnetic Field Formulas and Explanations")
     st.markdown(r"""
 **Vacuum Permeability ($\mu_0$)**  
-$\mu_0$ is the vacuum permeability, which characterizes the ability of free space to support a magnetic field. Its standard value is:
-  
+$\mu_0$ is the vacuum permeability, which characterizes the ability of free space to support a magnetic field. Its standard value is:""")
+
+    st.markdown(
+        '<div style="text-align: center;">'
+        '$$\\mu_0 = 1.25663706127 \\times 10^{-6}\\, \\text{N/A}^2$$'
+        '</div>',
+        unsafe_allow_html=True
+    )
+st.markdown(r"""  
 $
 \mu_0 = 1.25663706127 \times 10^{-6}\, \text{N/A}^2.
 $
@@ -26,12 +33,6 @@ $
 A long straight wire carrying a current $I$ produces a magnetic field that encircles the wire and decreases with distance. The magnetic field at a distance $r$ is given by:
 
  st.image("data/figs/B_field_wire.jpg", caption="Magnetic Field Orientation: Long Straight Wire", use_column_width=True)
-    st.markdown(
-        '<div style="text-align: center;">'
-        '$$B = \\frac{\\mu_0 I}{2 \\pi r}$$'
-        '</div>',
-        unsafe_allow_html=True
-    )
     
 $
 B = \frac{\mu_0 I}{2 \pi r}
