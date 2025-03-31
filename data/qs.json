@@ -31,7 +31,7 @@
     },
     "Q6a": {
         "text": "Two parallel wires 3 cm apart carry 8 A and 12 A. Compute the force on a 30 cm segment.",
-        "unit": r"$\mu$ N",
+        "unit": "micro N",
         "answer": 191.994
     },
     "Q7b": {
