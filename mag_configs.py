@@ -63,7 +63,25 @@ where:
 
 This formula demonstrates that the field inside the solenoid increases with both the current and the turn density.
     """, unsafe_allow_html=True)
+
+    st.header("Centripetal Force")
+    st.markdown(r"""When a particle moves in a circular path, a centripetal force is required to keep it in circular motion. This force is given by:""")
+    st.markdown(r"""
+<div style="text-align: center;">
+$$
+F_c = \frac{mv^2}{r}
+$$
+</div>
+    """, unsafe_allow_html=True)
     
+    st.markdown(r"""where:  
+- $m$ is the mass of the particle,  
+- $v$ is the speed of the particle, and  
+- $r$ is the radius of the circular path.
+
+This force is always directed toward the center of the circle.
+    """, unsafe_allow_html=True)
+
     st.header("Units")
     st.markdown(r"""
 Magnetic field strength is commonly measured in **Gauss (G)** in the CGS system.  
