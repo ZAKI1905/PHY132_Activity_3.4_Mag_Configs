@@ -18,7 +18,7 @@ if page == "Background Information":
 
     st.markdown(
         '<div style="text-align: center;">'
-        '$\mu_0 = 1.25663706127 \times 10^{-6}\, \text{N/A}^2$'
+        r'$\mu_0 = 1.25663706127 \times 10^{-6}\, \text{N/A}^2$'
         '</div>',
         unsafe_allow_html=True
     )
