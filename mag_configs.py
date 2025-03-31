@@ -26,9 +26,9 @@ student_answer = st.number_input(f"Enter your answer in {q['unit']}:", format="%
 if st.button("Check Answer"):
     correct = float(q['answer'])
     tolerance = 0.01 * abs(correct)  # 1% tolerance
-
+    
     if abs(student_answer - correct) <= tolerance:
         st.success("✅ Correct! Your answer is within 1% of the expected value.")
     else:
-        st.error(f"❌ Not quite. Try again.")
+    st.error(f"❌ Not quite. Try again.\nExpected value is between {correct - tolerance:.6g} and {correct + tolerance:.6g}.")
 Expected value is between {correct - tolerance:.6g} and {correct + tolerance:.6g}.")
