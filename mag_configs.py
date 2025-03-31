@@ -31,4 +31,4 @@ if st.button("Check Answer"):
         st.success("✅ Correct! Your answer is within 1% of the expected value.")
     else:
     st.error(f"❌ Not quite. Try again.\nExpected value is between {correct - tolerance:.6g} and {correct + tolerance:.6g}.")
-Expected value is between {correct - tolerance:.6g} and {correct + tolerance:.6g}.")
+Expected value is between {correct - tolerance:.6f} and {correct + tolerance:.6f}.")
