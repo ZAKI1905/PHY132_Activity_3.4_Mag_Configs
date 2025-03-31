@@ -4,7 +4,7 @@ import json
 import numpy as np
 
 # Load the question data
-with open("qs.json", "r") as f:
+with open("data/qs.json", "r") as f:
     questions = json.load(f)
 
 # Title and description
