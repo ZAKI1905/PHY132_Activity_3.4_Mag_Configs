@@ -8,7 +8,11 @@ with open("data/qs.json", "r") as f:
     questions = json.load(f)
 
 # Title and description
-st.title("PHY 132 – Magnetic Field Answer Checker")
+st.title("PHY 132 –  Activity 3.4 - Magnetic Field Configurations")
+
+# Intro Text
+st.write("This tool is intended for checking final numerical answers to some parts of the questions.")
+
 st.markdown("Check your final numerical answer below (within 1% tolerance). Enter only the number — no units.")
 
 # Dropdown to select a question
