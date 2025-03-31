@@ -13,38 +13,72 @@ page = st.sidebar.radio("Select a page:", ["Answer Checker", "Background Informa
 if page == "Background Information":
     st.title("Background Information")
     
-    st.header("Magnetic Field Formulas")
+    st.header("Magnetic Field Formulas and Explanations")
     st.markdown(r"""
-- **Long Straight Wire:** 
-  \[
-  B = \frac{\mu_0 I}{2\pi r}
-  \]
-- **Circular Loop (at center):**
-  \[
-  B = \frac{\mu_0 I}{2R}
-  \]
-- **Solenoid (inside):**
-  \[
-  B = \mu_0 \left(\frac{N}{L}\right) I
-  \]
-    """)
+**Vacuum Permeability (\\(\\mu_0\\))**  
+\\(\\mu_0\\) is the vacuum permeability, which characterizes the ability of free space to support a magnetic field. Its standard value is:
+  
+$$
+\\mu_0 = 1.25663706127 \\times 10^{-6}\\, \\text{N/A}^2.
+$$
+
+**Long Straight Wire**  
+A long straight wire carrying a current \\(I\\) produces a magnetic field that encircles the wire and decreases with distance. The magnetic field at a distance \\(r\\) is given by:
+
+$$
+B = \\frac{\\mu_0 I}{2 \\pi r}
+$$
+
+where:  
+- \\(I\\) is the current in amperes (A).  
+- \\(r\\) is the distance from the wire in meters (m).  
+
+This formula shows that the magnetic field is inversely proportional to the distance from the wire.
+
+**Circular Loop**  
+A circular loop of wire carrying a current \\(I\\) produces a magnetic field at its center given by:
+
+$$
+B = \\frac{\\mu_0 I}{2R}
+$$
+
+where:  
+- \\(R\\) is the radius of the loop in meters (m).
+
+This expression is valid when measuring the field at the center of the loop.
+
+**Solenoid**  
+For a solenoid with \\(N\\) turns, a length \\(L\\), and carrying a current \\(I\\), the magnetic field inside (assuming an ideal, long solenoid) is approximately uniform and given by:
+
+$$
+B = \\mu_0 \\left(\\frac{N}{L}\\right) I
+$$
+
+where:  
+- \\(\\frac{N}{L}\\) represents the number of turns per unit length (turns per meter).
+
+This formula demonstrates that the field inside the solenoid increases with both the current and the turn density.
+    """, unsafe_allow_html=True)
     
     st.header("Units")
     st.markdown(r"""
-- The magnetic field is measured in **Gauss (G)** in CGS units.
-- \(1\,\text{Gauss} = 10^{-4}\,\text{Tesla (T)}\).
-    """)
+Magnetic field strength is commonly measured in **Gauss (G)** in the CGS system.  
+$$
+1\\,\\text{Gauss} = 10^{-4}\\,\\text{Tesla (T)}
+$$  
+The Tesla (T) is the SI unit for magnetic field strength.
+    """, unsafe_allow_html=True)
     
     st.header("Particle Properties")
     st.markdown(r"""
 - **Electron:**  
-  Mass = \(9.11 \times 10^{-31}\,\text{kg}\)  
-  Charge = \(-1.6 \times 10^{-19}\,\text{C}\)
+  - Mass: \\(9.11 \\times 10^{-31}\\,\\text{kg}\\)  
+  - Charge: \\(-1.6 \\times 10^{-19}\\,\\text{C}\\)
   
 - **Proton:**  
-  Mass = \(1.67 \times 10^{-27}\,\text{kg}\)  
-  Charge = \(+1.6 \times 10^{-19}\,\text{C}\)
-    """)
+  - Mass: \\(1.67 \\times 10^{-27}\\,\\text{kg}\\)  
+  - Charge: \\(+1.6 \\times 10^{-19}\\,\\text{C}\\)
+    """, unsafe_allow_html=True)
     
 else:
     st.title("PHY 132 –  Activity 3.4 - Magnetic Field Configurations")
@@ -71,7 +105,7 @@ else:
             st.success("✅ Correct! Your answer is within 1% of the expected value.")
         else:
             st.error("❌ Not quite. Try again.")
-    
+
 # Footer with contact info and right-aligned EKU logo
 footer = '''
 ---
