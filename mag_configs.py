@@ -39,8 +39,8 @@ This formula shows that the magnetic field is inversely proportional to the dist
 
 **Circular Loop**  
 A circular loop of wire carrying a current $I$ produces a magnetic field at its center given by:""")
-st.image("data/figs/B_field_loop.jpg", caption="Magnetic Field Orientation: Circular Loop", use_container_width=True)
-st.markdown(r"""
+    st.image("data/figs/B_field_loop.jpg", caption="Magnetic Field Orientation: Circular Loop", use_container_width=True)
+    st.markdown(r"""
 $
 B = \frac{\mu_0 I}{2R}
 $
@@ -51,8 +51,9 @@ where:
 This expression is valid when measuring the field at the center of the loop.
 
 **Solenoid**  
-For a solenoid with $N$ turns, a length $L$, and carrying a current $I$, the magnetic field inside (assuming an ideal, long solenoid) is approximately uniform and given by:
-
+For a solenoid with $N$ turns, a length $L$, and carrying a current $I$, the magnetic field inside (assuming an ideal, long solenoid) is approximately uniform and given by:""")
+    st.image("data/figs/B_field_solenoid.jpg", caption="Magnetic Field Orientation: Solenoid", use_container_width=True)
+    st.markdown(r"""
 $$
 B = \mu_0 \left(\frac{N}{L}\right) I
 $$
