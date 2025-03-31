@@ -24,7 +24,7 @@ if page == "Background Information":
 **Long Straight Wire**  
 A long straight wire carrying a current $I$ produces a magnetic field that encircles the wire and decreases with distance. The magnetic field at a distance $r$ is given by:""")
 
-    diagram_path = f"https://raw.githubusercontent.com/ZAKI1905/phy132-kirchhoff-checker/main/Diagrams/circuit_set_{set_number}.png"
+    diagram_path = f"https://github.com/ZAKI1905/PHY132_Activity_3.4_Mag_Configs/main/data/figs/B_field_wire.jpg"
     st.image("data/figs/B_field_wire.jpg", caption="Magnetic Field Orientation: Long Straight Wire", use_column_width=True)
     st.markdown(r"""      
 $
