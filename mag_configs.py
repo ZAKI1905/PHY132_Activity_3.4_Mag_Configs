@@ -66,12 +66,7 @@ This formula demonstrates that the field inside the solenoid increases with both
 
     st.header("Centripetal Force")
     st.markdown(r"""When a particle moves in a circular path, a centripetal force is required to keep it in circular motion. This force is given by:""")
-    st.markdown(r"""
-<div style="text-align: center;">
-$
-F_c = \frac{mv^2}{r}
-$
-</div>
+    st.markdown(r"""$F_c = \frac{mv^2}{r}$
     """, unsafe_allow_html=True)
     
     st.markdown(r"""where:  
